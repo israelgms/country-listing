@@ -1,7 +1,14 @@
 import React from 'react'
+import CountryCard from './components/CountryCard/CountryCard'
+
 
 const App = () => {
-  return <h1>Listagem de Países</h1>
-} 
+  return (
+  <div>
+  <h1>Meu app</h1>
+  <CountryCard />
+  </div>
+  )
+}
 
-export default App;
+export default App

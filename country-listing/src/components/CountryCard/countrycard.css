@@ -1,0 +1,25 @@
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 200px;
+    height: 250px;
+    padding: 25px;
+    margin: 20px 10px 0 0;
+    border: 1px solid black;
+}
+
+h2{
+    color: blue;
+    font-size: 19px;
+}
